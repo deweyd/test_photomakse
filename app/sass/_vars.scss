@@ -1,0 +1,58 @@
+
+body{
+  font-family: muller, sans-serif;
+  color: #000;
+  font-size: 16px;
+}
+$red:#d00522;
+
+a{
+  color: #fff;
+  display: block;
+}
+
+h1{
+  font-family:muller-bold,sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+h2{
+  font-family:muller-bold-extra,sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000;
+}
+h3{
+  font-family:muller-bold-extra,sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $red;
+}
+h4{
+  font-family:muller-bold-extra,sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $red;
+}
+section{
+  padding: 90px 0;
+  overflow: hidden;
+
+}
+@media (max-width: 768px) {
+  h1 {
+    font-family: muller-bold,sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  section{
+    padding: 40px 0;
+    overflow: hidden;
+
+  }
+}
