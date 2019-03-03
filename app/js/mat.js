@@ -20,7 +20,7 @@ $(function () {
                     "</td><td><textarea id=\"").concat(idx, "\" name='city' class=\"shows\">").concat(list.city, "</textarea><p class=\"hides\">").concat(list.city, "</p></td>" +
                     "<td><textarea id=\"").concat(idx, "\" name='name' class=\"shows\">").concat(list.name, "</textarea><p class=\"hides\">").concat(list.name, "</p></td>" +
                     "<td><textarea id=\"").concat(idx, "\" name='description' class=\"shows\">").concat(list.description, "</textarea><p class=\"hides\">").concat(list.description, "</p></td>" +
-                    "<td><div class=\"edit\"><span class=\"edit-button\"><img class=\"edit-button-width\" src=\"../img/edit.png\" alt=\"\"></span>" +
+                    "<td><div class=\"edit\"><span class=\"edit-button\"><img class=\"edit-button-width\" src=\"https://cdn4.iconfinder.com/data/icons/web-ui-color/128/Edit-512.png\" alt=\"\"></span>" +
                     "<span class=\"buttons confirm\">confirm</span><span id=\"").concat(idx, "\" class=\"buttons delete\">delete</span></div></td><tr>"));
         });
         $('.edit-button').click(function () {
